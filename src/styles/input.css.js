@@ -1,0 +1,20 @@
+import styled from "styled-components";
+
+export const InputContainer = styled.div`
+  display: flex;
+  gap: 10px;
+
+  input {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: #2563eb;
+    color: white;
+  }
+`
